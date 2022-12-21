@@ -57,6 +57,15 @@ public class Main {
         return temperature * 9.0 / 5.0 + 32.0;
     }
 
+    public double convertFtoC() {
+        double temperature = getTemperature(scanner, printStream);
+        return temperatureFtoC(temperature);
+    }
+
+    public static double temperatureFtoC(double temperature) {
+        return (temperature - 32.0) * 5.0 / 9.0;
+    }
+
 
 
 
