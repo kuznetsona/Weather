@@ -14,6 +14,17 @@ public class Main {
 
     public static void main(String[] args) {
         Main userInputExample = new Main(System.in, System.out);
+        userInputExample.start();
+    }
+
+    public void start() {
+        double result;
+        while (true) {
+            printStream.println("Convert to Fahrenheit(F) or Celsius(C) ?");
+            String mode = scanner.nextLine();
+
+        }
+
 
     }
 
