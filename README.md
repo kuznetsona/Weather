@@ -1,3 +1,5 @@
+![Build Status](https://github.com/kuznetsona/Weather/actions/workflows/main.yml/badge.svg?branch=dev) (dev)
+![Build Status](https://github.com/kuznetsona/Weather/actions/workflows/main.yml/badge.svg?branch=main) (main)
 # Weather
 Описание
 
